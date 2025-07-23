@@ -6,7 +6,7 @@ A simple React app for organizing tasks into categories with toggleable completi
 
 ## Live Demo
 
-[Live Demo Link Here](#)
+[Live Demo Link Here](https://list-organizer-react.vercel.app/)
 
 ---
 
@@ -14,11 +14,11 @@ A simple React app for organizing tasks into categories with toggleable completi
 
 ### Desktop View
 
-![Desktop Screenshot](./screenshots/desktop.png)
+<img src="screenshots/desktop.png" alt="Desktop Screenshot" width="400" />
 
 ### Mobile View
 
-![Mobile Screenshot](./screenshots/mobile.png)
+<img src="screenshots/mobile.png" alt="Mobile Screenshot" width="250" />
 
 ---
 
