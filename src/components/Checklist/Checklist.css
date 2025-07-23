@@ -1,0 +1,38 @@
+.task-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 24px;
+  gap: 48px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+
+.task-title {
+  font-size: 20px;
+  font-weight: 600;
+  color: #4a1a2b;
+  margin-bottom: 12px;
+  padding-left: 12px;
+  border-left: 4px solid #4e878c;
+}
+
+section {
+  width: 100%;
+  padding: 20px 24px;
+  background-color: #fafafa;
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+  transition: box-shadow 0.2s ease;
+}
+
+section:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section > div {
+  display: flex;
+  gap: 48px;
+}

@@ -1,0 +1,77 @@
+.subtasks {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap; /* allow wrapping on smaller screens */
+  justify-content: flex-start;
+}
+
+/* Each column of subtasks */
+.subtask-column {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  min-width: 200px;
+}
+
+.subtask-heading {
+  font-size: 18px;
+  margin-bottom: 12px;
+  color: #444;
+}
+
+.subtask-item {
+  cursor: pointer;
+  padding: 6px 0;
+  font-size: 16px;
+  color: #222;
+  transition: color 0.2s ease, text-decoration 0.2s ease;
+}
+
+.subtask-item:hover {
+  color: #007acc;
+}
+
+.subtask-item.done {
+  text-decoration: line-through;
+  color: #888;
+}
+
+/* Responsive adjustments */
+@media (max-width: 700px) {
+  section > div {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .subtasks {
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .subtask-column {
+    width: 100%;
+    min-width: unset;
+  }
+}
+
+@media (max-width: 400px) {
+  .task-container {
+    padding: 24px 16px;
+    gap: 32px;
+  }
+
+  .task-title {
+    font-size: 18px;
+    padding-left: 8px;
+    border-left-width: 3px;
+  }
+
+  .subtask-heading {
+    font-size: 16px;
+  }
+
+  .subtask-item {
+    font-size: 14px;
+    padding: 4px 0;
+  }
+}
