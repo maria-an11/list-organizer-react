@@ -34,6 +34,7 @@ A simple React app for organizing tasks into categories with toggleable completi
 
 ## Project Structure
 
+```
 src/
 ├── components/
 │ ├── Checklist/
@@ -45,6 +46,7 @@ src/
 ├── data/
 │ └── initialList.js
 └── App.js
+```
 
 ---
 
